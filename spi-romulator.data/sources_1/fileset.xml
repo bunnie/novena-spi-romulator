@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/eimram/eimram.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/uk_fifo/uk_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/nandadr_fifo/nandadr_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/ddr3_clkgen/ddr3_clkgen.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/dcm_delay/dcm_delay.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/bclk_dll/bclk_dll.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/spi_eeprom.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/common/sync_reset.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/common/sync_reset.v"/>
+        <Attr Name="ImportTime" Val="1329572452"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/common/rising_edge.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/common/rising_edge.v"/>
+        <Attr Name="ImportTime" Val="1369642626"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/common/reg_wo_4burst.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/common/reg_wo_4burst.v"/>
+        <Attr Name="ImportTime" Val="1372351224"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/common/reg_wo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/common/reg_wo.v"/>
+        <Attr Name="ImportTime" Val="1371038930"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/common/reg_ro_4burst.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/common/reg_ro_4burst.v"/>
+        <Attr Name="ImportTime" Val="1372362656"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/common/reg_ro.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/common/reg_ro.v"/>
+        <Attr Name="ImportTime" Val="1369371110"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/novena_fpga.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/novena_fpga.v"/>
+        <Attr Name="ImportTime" Val="1398109362"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/ddr3_if_4port/ddr3_if_4port.xco">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/ddr3_eim_cs1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/ddr3_eim_cs1.v"/>
+        <Attr Name="ImportTime" Val="1372393290"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/common/reg_r_det_early.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/common/reg_r_det_early.v"/>
+        <Attr Name="ImportTime" Val="1370891530"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/common/reg_r_det.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/common/reg_r_det.v"/>
+        <Attr Name="ImportTime" Val="1370188322"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/page_buf2112/page_buf2112.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/romulator_ddr3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/romulator_ddr3.v"/>
+        <Attr Name="ImportTime" Val="1372012246"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/cmd_fifo_exp/cmd_fifo_exp.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/nand_log.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/nand_log.v"/>
+        <Attr Name="ImportTime" Val="1371911898"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/src/glbl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/src/glbl.v"/>
+        <Attr Name="ImportTime" Val="1364341844"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/romulator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/romulator.v"/>
+        <Attr Name="ImportTime" Val="1369907220"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/novena_eim2/novena_eim2.xci">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/romulator_ddr3_tb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/romulator_ddr3_tb.v"/>
+        <Attr Name="ImportTime" Val="1371457352"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/novena_eim.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/novena_eim.v"/>
+        <Attr Name="ImportTime" Val="1370850310"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/nand_log_tb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/nand_log_tb.v"/>
+        <Attr Name="ImportTime" Val="1370890882"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/common/reg_w_det.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/common/reg_w_det.v"/>
+        <Attr Name="ImportTime" Val="1369736806"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/novena_eim_sync.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/novena_eim_sync.v"/>
+        <Attr Name="ImportTime" Val="1371800036"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/dbuf_ddr3_reader.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../novena-sd-fpga/novena-sd.srcs/sources_1/imports/dbuf_ddr3_reader.v"/>
+        <Attr Name="ImportTime" Val="1371800236"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="novena_fpga"/>
+      <Option Name="TopLib" Val="work"/>
+      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/imports/imports/novena_fpga.v"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+</DARoots>
